@@ -2,16 +2,21 @@ package com.takako;
 
 public class Doller {
 
-	public int amount;
+	private int amount;
 
 	public Doller(int amount) {
 		// TODO Auto-generated constructor stub
 		this.amount = amount;
 	}
 
-	public void times(int multiplier) {
+	public Doller times(int multiplier) {
 		// TODO Auto-generated method stub
-		amount *= multiplier;
+		return new Doller(amount * multiplier);
+	}
+	
+	public boolean equals(Object object) {
+		Doller doller = (Doller) object;
+		return amount == doller.amount;
 	}
 
 }
