@@ -1,22 +1,15 @@
-package com.takako;
+//package com.takako;
 
-public class Doller {
+//public class Doller extends Money{
 
-	private int amount;
-
-	public Doller(int amount) {
+//	public Doller(int amount, String currency) {
 		// TODO Auto-generated constructor stub
-		this.amount = amount;
-	}
+//		super(amount, currency);
+//	}
 
-	public Doller times(int multiplier) {
+	// Money‚ÉˆÚ“®
+	/*public Money times(int multiplier) {
 		// TODO Auto-generated method stub
-		return new Doller(amount * multiplier);
-	}
-	
-	public boolean equals(Object object) {
-		Doller doller = (Doller) object;
-		return amount == doller.amount;
-	}
-
-}
+		return new Money(amount * multiplier, currency);
+	}*/
+//}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="hadoop04" name="com.takako.AppTest" tests="1" failures="0" timestamp="28 Jul 2011 06:41:32 GMT" time="0.016" errors="0">
+  <testcase name="testApp" time="0.0" classname="com.takako.AppTest"/>
+</testsuite>
